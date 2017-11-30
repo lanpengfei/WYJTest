@@ -13,6 +13,7 @@
 		1853FCCD1FD01E5F0084D8B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1853FCCC1FD01E5F0084D8B8 /* Assets.xcassets */; };
 		1853FCD01FD01E5F0084D8B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1853FCCE1FD01E5F0084D8B8 /* LaunchScreen.storyboard */; };
 		1853FCD31FD01E5F0084D8B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853FCD21FD01E5F0084D8B8 /* main.m */; };
+		1853FCDB1FD01E7D0084D8B8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853FCD91FD01E7D0084D8B8 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1853FCCF1FD01E5F0084D8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1853FCD11FD01E5F0084D8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1853FCD21FD01E5F0084D8B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1853FCD91FD01E7D0084D8B8 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		1853FCDA1FD01E7D0084D8B8 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				1853FCC61FD01E5F0084D8B8 /* ViewController.h */,
 				1853FCC71FD01E5F0084D8B8 /* ViewController.m */,
 				1853FCC91FD01E5F0084D8B8 /* Main.storyboard */,
+				1853FCDA1FD01E7D0084D8B8 /* UIView+Frame.h */,
+				1853FCD91FD01E7D0084D8B8 /* UIView+Frame.m */,
 				1853FCCC1FD01E5F0084D8B8 /* Assets.xcassets */,
 				1853FCCE1FD01E5F0084D8B8 /* LaunchScreen.storyboard */,
 				1853FCD11FD01E5F0084D8B8 /* Info.plist */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1853FCDB1FD01E7D0084D8B8 /* UIView+Frame.m in Sources */,
 				1853FCC81FD01E5F0084D8B8 /* ViewController.m in Sources */,
 				1853FCD31FD01E5F0084D8B8 /* main.m in Sources */,
 				1853FCC51FD01E5F0084D8B8 /* AppDelegate.m in Sources */,
